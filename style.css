@@ -1,0 +1,29 @@
+body {
+  padding: 20px;
+  background-image: url('bg.jpg');
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper a {
+  display: flex;
+  margin: 0 30px;
+  height: 60px;
+}
+
+.wrapper a span {
+  align-self: center;
+}
+
+.memo {
+  margin-top: 7%;
+  padding: 20px;
+  width: 40%;
+  height: 500px;
+  background-color: rgba(128, 128, 128, 0.7);
+  font-size: 20px;
+  color: white;
+  overflow: auto;
+}
